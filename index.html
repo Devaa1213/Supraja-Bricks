@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supraja Bricks - Strong & Trusted Cement Bricks in Nellore</title>
+    <meta name="description" content="Supraja Bricks Nellore - Best quality cement bricks, fly ash bricks, and construction materials. Trusted for 18+ years. Founder Bandla Lakshman Rao.">
+    <meta name="keywords" content="cement bricks nellore, fly ash bricks nellore, supraja bricks, construction materials andhra pradesh, cement rings, kankara">
+    
+    <style>
+        /* --- CSS VARIABLES & DARK THEME --- */
+        :root {
+            --primary: #ff6d00; /* Vibrant Construction Orange */
+            --primary-glow: rgba(255, 109, 0, 0.4);
+            --primary-dark: #e65100;
+            --bg-body: #050505; 
+            --glass-bg: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            --text-main: #ffffff;
+            --text-muted: #b0bec5;
+            --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            color: var(--text-main);
+            background-color: var(--bg-body);
+            line-height: 1.6;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        /* --- 3D AMBIENT BACKGROUND ORBS (FULL COVERAGE) --- */
+        .bg-orb {
+            position: fixed;
+            border-radius: 50%;
+            z-index: -1;
+            filter: blur(80px);
+            opacity: 0.4;
+            animation: floatOrb 15s infinite alternate;
+            pointer-events: none; /* Allows clicking through */
+        }
+
+        /* Orb 1: Top Left (Orange) */
+        .orb-1 {
+            width: 500px;
+            height: 500px;
+            background: var(--primary);
+            top: -100px;
+            left: -100px;
+        }
+
+        /* Orb 2: Middle Right (Blue/Cool) - Fills the "half page" gap */
+        .orb-2 {
+            width: 400px;
+            height: 400px;
+            background: #2196f3;
+            top: 50%;
+            right: -100px;
+            transform: translateY(-50%);
+            animation-delay: -5s;
+        }
+
+        /* Orb 3: Bottom Left (Orange/Red) */
+        .orb-3 {
+            width: 600px;
+            height: 600px;
+            background: #d84315;
+            bottom: -150px;
+            left: -100px;
+            animation-delay: -10s;
+        }
+
+        @keyframes floatOrb {
+            0% { transform: translate(0, 0) scale(1); }
+            50% { transform: translate(30px, 40px) scale(1.1); }
+            100% { transform: translate(-20px, 20px) scale(1); }
+        }
+
+        a { text-decoration: none; color: inherit; }
+        ul { list-style: none; }
+        img { max-width: 100%; display: block; }
+
+        /* --- TYPOGRAPHY --- */
+        h1, h2, h3, h4 {
+            color: var(--text-main);
+            font-weight: 800;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 2rem;
+            position: relative;
+            padding-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background: linear-gradient(to right, #fff, #bbb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--primary-dark));
+            border-radius: 2px;
+            box-shadow: 0 0 15px var(--primary);
+        }
+
+        /* --- UTILITY --- */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 16px 32px;
+            background: rgba(255, 109, 0, 0.9);
+            color: white;
+            font-weight: 700;
+            border-radius: 12px;
+            transition: var(--transition);
+            border: 1px solid rgba(255,255,255,0.2);
+            cursor: pointer;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 8px 32px 0 rgba(255, 109, 0, 0.3);
+            backdrop-filter: blur(4px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            background: var(--primary);
+            box-shadow: 0 15px 40px rgba(255, 109, 0, 0.5);
+        }
+
+        /* --- HEADER (GLASS) --- */
+        header {
+            background: rgba(10, 10, 10, 0.7);
+            border-bottom: 1px solid var(--glass-border);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            padding: 10px 0;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* --- NEW LOGO STYLES --- */
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo-icon svg {
+            width: 45px;
+            height: 45px;
+            filter: drop-shadow(0 0 5px var(--primary));
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1;
+        }
+
+        .logo-title {
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: white;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .logo-subtitle {
+            font-size: 0.85rem;
+            color: var(--primary);
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        .lang-switch {
+            display: flex;
+            gap: 8px;
+            background: rgba(255,255,255,0.05);
+            padding: 4px;
+            border-radius: 10px;
+            border: 1px solid var(--glass-border);
+        }
+
+        .lang-btn {
+            background: transparent;
+            border: none;
+            color: #aaa;
+            padding: 8px 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: var(--transition);
+        }
+
+        .lang-btn.active {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            /* FIXED: Removed the black gradient. Now clear image. */
+            background: url('image_01659f.jpg'); 
+            background-size: cover;
+            background-position: center;
+            /* Parallax for desktop */
+            background-attachment: fixed;
+            color: var(--white);
+            padding: 160px 0 200px; 
+            text-align: center;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        /* Mobile adjustment */
+        @media (max-width: 768px) {
+            .hero {
+                background-attachment: scroll;
+            }
+        }
+
+        /* Light Overlay just to ensure readability */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            /* Subtle dark tint, NOT solid black */
+            background: rgba(0, 0, 0, 0.25);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeUp 1s forwards;
+            
+            /* --- GLASS CARD FOR TEXT --- */
+            /* This puts the text in a glass box instead of blacking out the background */
+            background: rgba(20, 20, 20, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 30px;
+            padding: 50px 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+            text-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            /* Silver/White gradient text */
+            background: linear-gradient(to bottom right, #ffffff, #e0e0e0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.4rem;
+            margin-bottom: 2.5rem;
+            color: #f0f0f0;
+            font-weight: 500;
+            text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+        }
+
+        /* --- 3D COUNTERS (GLASS CARDS) --- */
+        .stats-section {
+            padding: 0 20px;
+            margin-top: -120px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 25px;
+            text-align: center;
+        }
+
+        .stat-item {
+            background: rgba(20, 20, 20, 0.6);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 30px 20px;
+            border-radius: 20px;
+            box-shadow: var(--glass-shadow);
+            border: 1px solid var(--glass-border);
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .stat-item:hover {
+            transform: translateY(-10px) rotateX(5deg);
+            border-color: rgba(255, 109, 0, 0.4);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4), inset 0 0 20px rgba(255,109,0,0.1);
+        }
+
+        .stat-item h3 {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 5px;
+            text-shadow: 0 0 20px var(--primary-glow);
+        }
+
+        .stat-item p {
+            font-weight: 600;
+            color: #ccc;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        /* --- PRODUCTS (GLASS CARDS) --- */
+        .products { padding: 120px 0; }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        .card {
+            background: rgba(30, 30, 30, 0.4);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            transition: var(--transition);
+            border: 1px solid var(--glass-border);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card:hover {
+            transform: translateY(-15px) scale(1.02);
+            border-color: var(--primary);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.4), 0 0 20px rgba(255,109,0,0.2);
+        }
+
+        .card-img {
+            height: 250px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.8s ease;
+        }
+
+        .card:hover .card-img img { transform: scale(1.1); }
+
+        .card-body { 
+            padding: 30px; 
+            flex-grow: 1; 
+            display: flex; 
+            flex-direction: column; 
+            /* Inner gradient for readability */
+            background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(0,0,0,0.2));
+        }
+        
+        .card-tag {
+            background: rgba(255, 109, 0, 0.2);
+            padding: 6px 12px;
+            font-size: 0.75rem;
+            border-radius: 8px;
+            color: var(--primary);
+            display: inline-block;
+            margin-bottom: 15px;
+            font-weight: 800;
+            align-self: flex-start;
+            text-transform: uppercase;
+            border: 1px solid rgba(255, 109, 0, 0.3);
+        }
+
+        .card h3 { 
+            font-size: 1.5rem; 
+            margin-bottom: 12px;
+            color: white; 
+        }
+        
+        .card p { 
+            color: #ccc; 
+            font-size: 1rem;
+            line-height: 1.6; 
+        }
+
+        /* --- OFFERS --- */
+        .offers-banner {
+            background: linear-gradient(90deg, #b94200, #ff6d00);
+            color: white;
+            padding: 12px 0;
+            overflow: hidden;
+            white-space: nowrap;
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            position: relative;
+            z-index: 1001;
+        }
+
+        .marquee {
+            display: inline-block;
+            padding-left: 100%;
+            animation: marquee 25s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
+        }
+
+        /* --- SERVICES --- */
+        .services {
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .service-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .service-item {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(10px);
+            padding: 18px 35px;
+            border-radius: 50px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            box-shadow: var(--glass-shadow);
+            border: 1px solid var(--glass-border);
+            color: var(--text-main);
+            transition: var(--transition);
+        }
+        
+        .service-item:hover {
+            border-color: var(--primary);
+            background: rgba(255, 109, 0, 0.15);
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 109, 0, 0.3);
+        }
+
+        .service-icon {
+            color: var(--primary);
+            font-size: 1.5rem;
+        }
+
+        /* --- FOUNDER SECTION --- */
+        .founder-section {
+            padding: 100px 0;
+        }
+
+        .founder-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            border: 1px solid var(--primary);
+            /* Glass gradient */
+            background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(0,0,0,0.8) 100%);
+            backdrop-filter: blur(10px);
+            padding: 60px 30px;
+            border-radius: 30px;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+
+        .founder-badge {
+            background: var(--primary);
+            color: white;
+            padding: 10px 25px;
+            border-radius: 30px;
+            position: absolute;
+            top: -20px;
+            font-weight: 800;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 1.5px;
+            box-shadow: 0 10px 20px rgba(255, 109, 0, 0.4);
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            background: rgba(5, 5, 5, 0.9);
+            color: #888;
+            padding: 80px 0 30px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            backdrop-filter: blur(20px);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .footer h3 { color: white; font-size: 1.3rem; margin-bottom: 20px; }
+        .footer-link { 
+            display: block; 
+            margin-bottom: 12px; 
+            transition: 0.3s; 
+            display: flex; 
+            align-items: center; 
+            gap: 10px;
+            font-size: 1.1rem;
+        }
+        .footer-link:hover { color: var(--primary); padding-left: 5px; text-shadow: 0 0 10px rgba(255,109,0,0.5); }
+
+        /* --- FLOATING BUTTONS --- */
+        .floating-btns {
+            position: fixed;
+            bottom: 30px;
+            right: 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            z-index: 9999;
+        }
+
+        .float-btn {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 28px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            transition: var(--transition);
+            text-decoration: none;
+            position: relative;
+            border: 2px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(5px);
+        }
+
+        .float-btn:hover { transform: scale(1.15) rotate(5deg); box-shadow: 0 0 25px rgba(255,255,255,0.2); }
+        .btn-wa { background: linear-gradient(135deg, #25D366, #128C7E); }
+        .btn-call { background: linear-gradient(135deg, var(--primary), #d84315); }
+
+        .tooltip {
+            position: absolute;
+            right: 75px;
+            background: rgba(255, 255, 255, 0.95);
+            color: #121212;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 800;
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .float-btn:hover .tooltip { opacity: 1; }
+
+        /* --- ANIMATIONS --- */
+        @keyframes fadeUp {
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(50px);
+            transition: all 0.8s ease;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* --- MOBILE RESPONSIVE TWEAKS --- */
+        @media (max-width: 768px) {
+            header {
+                padding: 15px 0;
+            }
+            
+            .nav-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .logo {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .lang-switch {
+                width: 100%;
+                justify-content: center;
+                background: rgba(255,255,255,0.08);
+            }
+
+            .hero {
+                min-height: 70vh;
+                padding-top: 50px;
+                /* Hero bg is relative on mobile now naturally via default */
+            }
+            .hero h1 { font-size: 2.2rem; }
+            .section-title { font-size: 1.8rem; }
+            .founder-card { padding: 40px 20px; }
+            .stats-section { margin-top: -60px; }
+            .floating-btns { bottom: 20px; right: 15px; }
+            .float-btn { width: 50px; height: 50px; font-size: 22px; }
+        }
+
+        /* Hide elements based on language */
+        .lang-te { display: none; }
+    </style>
+</head>
+<body>
+    <!-- FIXED BACKGROUND ORBS (New Addition for Full Coverage) -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+    <div class="bg-orb orb-3"></div>
+
+    <!-- OFFERS BANNER -->
+    <div class="offers-banner">
+        <div class="marquee">
+            🔥 <span class="lang-en">Special Discount on 1500+ bricks!</span><span class="lang-te">1500+ ఇటుకలపై ప్రత్యేక తగ్గింపు!</span> &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp; 
+            ⭐ <span class="lang-en">Summer Sale – Best Prices in Nellore</span><span class="lang-te">వేసవి ఆఫర్ - నెల్లూరులో ఉత్తమ ధరలు</span> &nbsp;&nbsp;&nbsp; • &nbsp;&nbsp;&nbsp;
+            📞 <span class="lang-en">Call 98484 76860 for Today's Deal</span><span class="lang-te">నేటి డీల్ కోసం 98484 76860కి కాల్ చేయండి</span>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container nav-container">
+            <!-- New Custom Logo -->
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="5" y="10" width="18" height="10" rx="2" fill="#ff6d00"/>
+                        <rect x="27" y="10" width="18" height="10" rx="2" fill="#ff6d00"/>
+                        <rect x="5" y="24" width="10" height="10" rx="2" fill="#ff6d00" fill-opacity="0.8"/>
+                        <rect x="19" y="24" width="18" height="10" rx="2" fill="#ff6d00" fill-opacity="0.8"/>
+                        <rect x="41" y="24" width="4" height="10" rx="2" fill="#ff6d00" fill-opacity="0.8"/>
+                        <rect x="5" y="38" width="18" height="10" rx="2" fill="#ff6d00" fill-opacity="0.6"/>
+                        <rect x="27" y="38" width="18" height="10" rx="2" fill="#ff6d00" fill-opacity="0.6"/>
+                    </svg>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-title">SUPRAJA</span>
+                    <span class="logo-subtitle">BRICKS</span>
+                </div>
+            </a>
+
+            <div class="lang-switch">
+                <button class="lang-btn active" onclick="setLang('en')">English</button>
+                <button class="lang-btn" onclick="setLang('te')">తెలుగు</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>
+                <span class="lang-en">Strong Bricks. Strong Homes.<br>Trusted for 18+ Years.</span>
+                <span class="lang-te">బలమైన ఇటుకలు. బలమైన గృహాలు.<br>18 సంవత్సరాలుగా నమ్మకమైన పేరు.</span>
+            </h1>
+            <p>
+                <span class="lang-en">Premium Quality Cement & Fly Ash Bricks Supplier in Nellore.</span>
+                <span class="lang-te">నెల్లూరులో అత్యుత్తమ నాణ్యత గల సిమెంట్ మరియు ఫ్లై యాష్ ఇటుకల సరఫరాదారులు.</span>
+            </p>
+            <a href="tel:9848476860" class="btn">
+                <span class="lang-en">📞 Order Now</span>
+                <span class="lang-te">📞 ఇప్పుడే ఆర్డర్ చేయండి</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- 3D TRUST STATS -->
+    <div class="container">
+        <div class="stats-section">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 data-target="18">0</h3>
+                    <p><span class="lang-en">Years Experience</span><span class="lang-te">సంవత్సరాల అనుభవం</span></p>
+                </div>
+                <div class="stat-item">
+                    <h3 data-target="1000">0</h3>
+                    <p><span class="lang-en">Happy Customers</span><span class="lang-te">సంతృప్తికరమైన కస్టమర్లు</span></p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p><span class="lang-en">Quality Guaranteed</span><span class="lang-te">నాణ్యత హామీ</span></p>
+                </div>
+                <div class="stat-item">
+                    <h3>24/7</h3>
+                    <p><span class="lang-en">Support</span><span class="lang-te">సపోర్ట్</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <section class="products reveal">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="lang-en">Our Premium Products</span>
+                <span class="lang-te">మా ఉత్పత్తులు</span>
+            </h2>
+            <p style="text-align:center; margin-bottom:40px; color:var(--text-muted); font-size:1.1rem;">
+                <span class="lang-en">High-Grade Raw materials for lifetime durability.</span>
+                <span class="lang-te">జీవితకాల మన్నిక కోసం అధిక-నాణ్యత ముడి పదార్థాలు.</span>
+            </p>
+
+            <div class="product-grid">
+                <!-- Product 1: Cement Bricks -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://unitycement.in/wp-content/uploads/2024/04/Rectangle-5.jpg" alt="Cement Bricks">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Best Seller</span>
+                        <h3><span class="lang-en">Solid Cement Bricks</span><span class="lang-te">సిమెంట్ ఇటుకలు</span></h3>
+                        <p class="lang-en">High density, perfect for strong walls. Available in Large (House) & Small sizes.</p>
+                        <p class="lang-te">బలమైన గోడలకు అనువైనది. పెద్ద (ఇల్లు) మరియు చిన్న సైజులలో లభిస్తుంది.</p>
+                    </div>
+                </div>
+
+                <!-- Product 2: Fly Ash Bricks -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://www.ultratechcement.com/content/ultratechcement/in/en/home/home-building-basics/Fly-Ash-Bricks/_jcr_content/root/container/container/container/container/container/image.coreimg.jpeg/1736928775788/fly-ash-bricks-updated.jpeg" alt="Fly Ash Bricks">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Eco Friendly</span>
+                        <h3><span class="lang-en">Fly Ash Bricks</span><span class="lang-te">ఫ్లై యాష్ ఇటుకలు</span></h3>
+                        <p class="lang-en">Smooth finish, heat resistant, and cost-effective construction.</p>
+                        <p class="lang-te">మృదువైన ముగింపు, వేడిని తట్టుకునే శక్తి మరియు తక్కువ ఖర్చు.</p>
+                    </div>
+                </div>
+
+                <!-- Product 3: Cement Varalu (Rings) -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://img500.exportersindia.com/product_images/bc-500/2023/9/11876668/rcc-well-ring-1684229729-6896744.jpeg" alt="Cement Varalu">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Heavy Duty</span>
+                        <h3><span class="lang-en">Cement Varalu</span><span class="lang-te">సిమెంట్ వరలు</span></h3>
+                        <p class="lang-en">Durable reinforced rings for wells and septic tanks.</p>
+                        <p class="lang-te">బావులు మరియు సెప్టిక్ ట్యాంకుల కోసం బలమైన రింగులు.</p>
+                    </div>
+                </div>
+
+                <!-- Product 4: Stone/Gravel -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqRLRMSvsLT0nSR0G0yW73CLW7wc0kZ6qbXQ&s" alt="Construction Stone">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Construction</span>
+                        <h3><span class="lang-en">6mm Stone (Kankara)</span><span class="lang-te">6mm కంకర</span></h3>
+                        <p class="lang-en">High quality grey stone for concrete mixing.</p>
+                        <p class="lang-te">కాంక్రీటు మిశ్రమానికి నాణ్యమైన బూడిద రాయి.</p>
+                    </div>
+                </div>
+
+                 <!-- Product 5: Cement Sthambhaalu (Pillars) -->
+                 <div class="card">
+                    <div class="card-img">
+                        <img src="https://2.imimg.com/data2/LE/CQ/MY-5930548/img_20120927_111051.jpg" alt="Pillars">
+                    </div>
+                    <div class="card-body">
+                        <h3><span class="lang-en">Cement Pillars</span><span class="lang-te">సిమెంట్ స్తంభాలు</span></h3>
+                        <p class="lang-en">Strong fencing and support pillars.</p>
+                        <p class="lang-te">బలమైన ఫెన్సింగ్ మరియు మద్దతు స్తంభాలు.</p>
+                    </div>
+                </div>
+
+                <!-- Product 6: Cement Plates (New) -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="https://i.ytimg.com/vi/6BCEcoBK_hY/maxresdefault.jpg" alt="Cement Plates">
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">New Arrival</span>
+                        <h3><span class="lang-en">Cement Plates</span><span class="lang-te">సిమెంట్ ప్లేట్లు</span></h3>
+                        <p class="lang-en">Reinforced cement plates for roofing and shelves.</p>
+                        <p class="lang-te">రూఫింగ్ మరియు షెల్ఫ్‌ల కోసం రీన్‌ఫోర్స్డ్ సిమెంట్ ప్లేట్లు.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services reveal">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="lang-en">Our Services</span>
+                <span class="lang-te">మా సేవలు</span>
+            </h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <span class="service-icon">🚚</span> 
+                    <span class="lang-en">Home Delivery</span><span class="lang-te">ఇంటి వద్దకు సరఫరా</span>
+                </div>
+                <div class="service-item">
+                    <span class="service-icon">🏭</span> 
+                    <span class="lang-en">Bulk Supply</span><span class="lang-te">భారీ సరఫరా</span>
+                </div>
+                <div class="service-item">
+                    <span class="service-icon">🏗️</span> 
+                    <span class="lang-en">On-site Supply</span><span class="lang-te">సైట్ వద్ద సరఫరా</span>
+                </div>
+                <div class="service-item">
+                    <span class="service-icon">⏳</span> 
+                    <span class="lang-en">Sand Supply</span><span class="lang-te">ఇసుక సరఫరా</span>
+                </div>
+                <div class="service-item">
+                    <span class="service-icon">🧱</span> 
+                    <span class="lang-en">Cement Supply</span><span class="lang-te">సిమెంట్ సరఫరా</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOUNDER SECTION -->
+    <section class="founder-section reveal">
+        <div class="container">
+            <div class="founder-card">
+                <span class="founder-badge">Since 2008</span>
+                <h3>Bandla Lakshman Rao</h3>
+                <p style="color:var(--primary); font-weight:700; margin-bottom:15px; letter-spacing: 2px;">FOUNDER – SUPRAJA BRICKS</p>
+                <p class="lang-en" style="color: #ddd;">With over 18 years of excellence, we have served beach resorts, prawn hatcheries, and thousands of homes in Nellore. We guarantee strength and trust in every brick.</p>
+                <p class="lang-te" style="color: #ddd;">18 సంవత్సరాలకు పైగా అనుభవంతో, మేము నెల్లూరులో బీచ్ రిసార్ట్‌లు, రొయ్యల హేచరీలు మరియు వేల ఇళ్లకు సేవలు అందించాము. ప్రతి ఇటుకలో బలం మరియు నమ్మకాన్ని మేము హామీ ఇస్తున్నాము.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & MAP -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="logo" style="margin-bottom: 20px;">
+                        <div class="logo-text">
+                            <span class="logo-title" style="font-size: 1.2rem;">SUPRAJA</span>
+                            <span class="logo-subtitle" style="font-size: 0.7rem;">BRICKS</span>
+                        </div>
+                    </div>
+                    <p style="margin-top:15px; color: #aaa;">
+                        Near Tufan Building, Ramatheertham,<br>
+                        SPSR Nellore, Andhra Pradesh – 524318
+                    </p>
+                    <p style="margin-top:15px; color: white; font-weight:bold;">Served 1000+ Happy Customers</p>
+                </div>
+                <div>
+                    <h3><span class="lang-en">Contact Us</span><span class="lang-te">మమ్మల్ని సంప్రదించండి</span></h3>
+                    <div style="margin-top:15px;">
+                        <a href="tel:9848476860" class="footer-link">📞 98484 76860 (Primary)</a>
+                        <a href="tel:7036725596" class="footer-link">📞 70367 25596 (Secondary)</a>
+                        <a href="mailto:devakishore1213@gmail.com" class="footer-link">✉️ devakishore1213@gmail.com</a>
+                    </div>
+                </div>
+                <div>
+                    <h3><span class="lang-en">Location</span><span class="lang-te">చిరునామా</span></h3>
+                    <div style="margin-top:15px; border-radius:10px; overflow:hidden; border:1px solid rgba(255,255,255,0.2); box-shadow: 0 4px 20px rgba(0,0,0,0.8);">
+                        <!-- Embedded Google Map (Removed Invert Filter for Light Mode) -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.996160533374!2d79.9912!3d14.4496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4c8cca0e909031%3A0x6b4f7e5b22031122!2sRamatheertham%2C%20Nellore!5e0!3m2!1sen!2sin!4v1625561234567!5m2!1sen!2sin" 
+                            width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center; padding-top:20px; border-top:1px solid rgba(255,255,255,0.1);">
+                <p>&copy; 2024 Supraja Bricks. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING ACTION BUTTONS -->
+    <div class="floating-btns">
+        <a href="https://wa.me/919848476860" target="_blank" class="float-btn btn-wa">
+            <span class="tooltip">WhatsApp</span>
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.592 2.654-.696c1.005.572 1.903.856 2.805.857l.004-.001c3.181 0 5.767-2.586 5.768-5.765.001-3.181-2.587-5.768-5.767-5.768zm0-2c4.28 0 7.767 3.488 7.767 7.769 0 4.28-3.487 7.768-7.767 7.768-1.298 0-2.458-.336-3.482-.924l-3.551.93 1.014-3.595c-.569-1.025-.877-2.18-.877-3.433 0-4.281 3.487-7.769 7.768-7.769z"/></svg>
+        </a>
+        <a href="tel:9848476860" class="float-btn btn-call">
+            <span class="tooltip">Call Now</span>
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.43-5.15-3.75-6.58-6.59l1.97-1.57c.23-.23.33-.55.24-1.01a17.3 17.3 0 01-.56-3.53.98.98 0 00-1-.98H4.1a1 1 0 00-1 1c0 9.39 7.61 17 17 17a1 1 0 001-1v-3.85a.98.98 0 00-.99-.99z"/></svg>
+        </a>
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // --- LANGUAGE TOGGLE ---
+        function setLang(lang) {
+            if(lang === 'en') {
+                document.querySelectorAll('.lang-en').forEach(el => el.style.display = 'inline');
+                document.querySelectorAll('.lang-te').forEach(el => el.style.display = 'none');
+                document.querySelectorAll('.lang-btn')[0].classList.add('active');
+                document.querySelectorAll('.lang-btn')[1].classList.remove('active');
+            } else {
+                document.querySelectorAll('.lang-en').forEach(el => el.style.display = 'none');
+                document.querySelectorAll('.lang-te').forEach(el => el.style.display = 'inline');
+                document.querySelectorAll('.lang-btn')[0].classList.remove('active');
+                document.querySelectorAll('.lang-btn')[1].classList.add('active');
+            }
+        }
+
+        setLang('en');
+
+        // --- COUNTER ANIMATION ---
+        const counters = document.querySelectorAll('.stat-item h3');
+        const speed = 200;
+
+        const animateCounters = () => {
+            counters.forEach(counter => {
+                const updateCount = () => {
+                    const target = +counter.getAttribute('data-target');
+                    if(!target) return;
+                    
+                    const count = +counter.innerText;
+                    const inc = target / speed;
+
+                    if (count < target) {
+                        counter.innerText = Math.ceil(count + inc);
+                        setTimeout(updateCount, 20);
+                    } else {
+                        counter.innerText = target + "+";
+                    }
+                };
+                updateCount();
+            });
+        };
+
+        // --- SCROLL ANIMATIONS ---
+        const observerOptions = { threshold: 0.1 };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    if(entry.target.classList.contains('stats-section') || entry.target.closest('.stats-section')) {
+                        animateCounters();
+                    }
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        observer.observe(document.querySelector('.stats-section'));
+
+    </script>
+</body>
+</html>
