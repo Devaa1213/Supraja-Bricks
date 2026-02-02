@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://devaa1213.github.io/Supraja-Bricks/</loc>
-    <lastmod>2026-02-02</lastmod>
-    <priority>1.0</priority>
-  </url>
+<urlset xmlns="https://devaa1213.github.io/Supraja-Bricks/">
+
+<url>
+  <loc>https://USERNAME.github.io/REPO/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>1.0</priority>
+</url>
+
 </urlset>
