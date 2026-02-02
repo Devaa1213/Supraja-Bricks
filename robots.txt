@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://devaa1213.github.io/Supraja-Bricks/sitemap.xml
